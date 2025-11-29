@@ -19,7 +19,7 @@ Script ini dilengkapi dengan **password proteksi (Base64)**, **ASCII art banner*
 Clone repository ini:
 
 ```bash
-git clone https://github.com/oscaroffc/spam-ngl.git
+git clone https://github.com/cokycokynanas/nglspam
 cd ngl-sender
 pip install -r requirements.txt
 ```
