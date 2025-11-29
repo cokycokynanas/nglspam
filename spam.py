@@ -12,7 +12,7 @@ import itertools
 
 # --- Konfigurasi password ---
 # base64 dari "3747" = "Mzc0Nw=="
-PASSWORD_B64 = "Mzc0Nw=="
+PASSWORD_B64 = "Z29ibG9r"
 PASSWORD = base64.b64decode(PASSWORD_B64).decode("utf-8")
 MAX_ATTEMPTS = 3
 
