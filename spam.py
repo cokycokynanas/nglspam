@@ -97,7 +97,7 @@ if not require_password():
 
 # show banner with animated typing
 tprint(ascii_oscar, speed=0.0008, color=MAGENTA)
-print(CYAN + BOLD + "=== Simple NGL Sender by OSCAR x dika ===" + RESET + "\n")
+print(CYAN + BOLD + "=== Simple NGL Sender by Maklu ===" + RESET + "\n")
 
 # --- Program utama ---
 URL = "https://ngl.link/api/submit"
@@ -132,7 +132,7 @@ def parse_float(prompt, default=5.0):
         print(YELLOW + "Input angka tidak valid, menggunakan default:" + RESET, default)
         return default
 
-username = input(CYAN + "Masukkan username target (contoh: oscar123): " + RESET).strip()
+username = input(CYAN + "Masukkan username target (contoh: pukyy): " + RESET).strip()
 pesan = input(CYAN + "Masukkan pesan yang akan dikirim: " + RESET).strip()
 jumlah = parse_int(CYAN + "Jumlah pesan (0 = tanpa batas): " + RESET, default=0)
 delay = parse_float(CYAN + "Delay antar pesan dalam detik (default 5): " + RESET, default=5.0)
