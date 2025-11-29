@@ -20,7 +20,7 @@ Clone repository ini:
 
 ```bash
 git clone https://github.com/cokycokynanas/nglspam
-cd ngl-sender
+cd nglspam
 pip install -r requirements.txt
 ```
 ---
